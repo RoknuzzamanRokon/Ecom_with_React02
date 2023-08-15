@@ -12,7 +12,8 @@ function ProductScreen({match}) {
   console.log('product:', product);
   return (
     <div> 
-       {product.name}
+      <h2>{product.name}</h2>
+       
     </div>
   )
 }
